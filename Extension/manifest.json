@@ -1,4 +1,19 @@
 {
-  
+  "name": "Twitch-Chat-Notifier",
+  "manifest_version": 2,
+  "version": "1",
+  "description": "Notifies you when someone sends a message in a live's chat",
+  "icons": {
+    "128": "padrao.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [{
+    "matches": ["*://www.twitch.tv/*"],
+    "js": ["Notifier.js"]
+  }],
+  "browser_action": {
+    "default_popup": "estrutura.html",
+    "default_script": "Passive.js"
+  }
   
 }
