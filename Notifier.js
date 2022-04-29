@@ -28,3 +28,6 @@ setInterval(function Main(){
         }
     }
 },200);
+
+//Andrefalt was here
+//Andrefalt esteve aqui
