@@ -1,5 +1,5 @@
 //First, we create an audio tag and assign an audio to it.
-//Primeiro, nós criamos uma tag de áudio e adicionamus um valor à tag.
+//Primeiro, nós criamos uma tag de áudio e adicionamos um valor à tag.
 const audio = document.createElement("audio");
 audio.src = "https://www.freesoundslibrary.com/wp-content/uploads/2018/03/right-answer-ding-ding-sound-effect.mp3";
 
